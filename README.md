@@ -15,7 +15,9 @@
 #### 4. Predicting Play Calls
   - Leverages a novel API that accesses College Football Data to create a model of play calling for SEC teams. 
   - Uses ensemble methods to help identify the most important features to predict play calls by coaches depending on the time left in the game, down, distance, and other key football-specific metrics.
-
-#### 5. Sarcasm in News Headlines
+#### 5. Football ELO Ratings
+  - Leverage novel college football data API to create power ranking system using ELO ratings, the system made famous for ranking chess players.
+  - Develops ELO ratings over time between 2000-Present by taking information from all games played by all teams.
+#### 6. Sarcasm in News Headlines
   - Build ANN using TensorFlow to detect sarcasm in news headlines using Kaggle dataset.
   
