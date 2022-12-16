@@ -12,4 +12,8 @@
 #### 3. Rotten Tomatoes Movie Ratings Prediction
   - Based on audience rating data, uses XGBoost and compares with other classical ML techniques to predict whether movies are Fresh, Certified Fresh,
   - or Rotten. Works with combination of numerical, categorical, and ordinal data. Uses one-hot and ordinal encodings, feature scaling, and other data wrangling techniques to regularize features. 
+#### 4. Predicting Play Calls
+  - Leverages a novel API that accesses College Football Data to create a model of play calling for SEC teams. 
+  - Uses ensemble methods to help identify the most important features to predict play calls by coaches depending on
+  - the time left in the game, down, distance, etc. 
   
