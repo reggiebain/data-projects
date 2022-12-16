@@ -14,6 +14,8 @@
   - or Rotten. Works with combination of numerical, categorical, and ordinal data. Uses one-hot and ordinal encodings, feature scaling, and other data wrangling techniques to regularize features. 
 #### 4. Predicting Play Calls
   - Leverages a novel API that accesses College Football Data to create a model of play calling for SEC teams. 
-  - Uses ensemble methods to help identify the most important features to predict play calls by coaches depending on
-  - the time left in the game, down, distance, etc. 
+  - Uses ensemble methods to help identify the most important features to predict play calls by coaches depending on the time left in the game, down, distance, and other key football-specific metrics.
+
+#### 5. Sarcasm in News Headlines
+  - Build ANN using TensorFlow to detect sarcasm in news headlines using Kaggle dataset.
   
