@@ -20,6 +20,6 @@
   - Develops ELO ratings over time between 2000-Present by taking information from all games played by all teams.
 #### 6. Sarcasm in News Headlines
   - Build ANN using TensorFlow to detect sarcasm in news headlines using Kaggle dataset.
-### 7. Forecasting Store Sales
+#### 7. Forecasting Store Sales
   - Use Neural Prophet (Facebook) to forecast sales at stores in Ecuador using Kaggle dataset. Break down trend, seasonality, and incorporate key holidays and additional regression (nation-wide oil prices). Tune hyperparameters using parameter grid search.
   
