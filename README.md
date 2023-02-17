@@ -5,21 +5,24 @@
   - Ultimately, XGBoost is found to be the best performing model, overall predicting delivery times to within a reasonable +/-.
   - Utlilizes several key techniques for feature selection and feature engineering, including Principal Component Analysis (PCA)
   - and a Gaussian Mixture Model (GMM) to identify the most important features.
-#### 2. Sentiment Flair Analysis + Clustering Analysis
+#### 2. Movie Review Sentence Classifier (Deep Learning)
+  - Built an LSTM model using Keras and Tensorflow to classify the sentiment of critic reviews of movies using Rotten Tomatoes data. 
+  - Additionally, worked on fine-tuning BERT to predict the same critic review sentiments. Leverage the HuggingFace Transformers library as well as Keras/Tensorflow functionality.
+#### 3. Sentiment Flair Analysis + Clustering Analysis
   - Uses Flair, a state-of-the-art pre-trained model for NLP, to analyze the sentiment of unlabeled customer comments on pharmacudical products.
   - Leverages regex and other techniques to clean reviews, which come from a variety of sources including social media and surveys
   - Use clustering with Google Word2Vec package to create embeddings for reviews to analyze sentiment in the same customer reviews.
-#### 3. Rotten Tomatoes Movie Ratings Prediction
+#### 4. Rotten Tomatoes Movie Ratings Prediction
   - Based on audience rating data, uses XGBoost and compares with other classical ML techniques to predict whether movies are Fresh, Certified Fresh,
   - or Rotten. Works with combination of numerical, categorical, and ordinal data. Uses one-hot and ordinal encodings, feature scaling, and other data wrangling techniques to regularize features. 
-#### 4. Predicting Play Calls
+#### 5. Predicting Play Calls
   - Leverages a novel API that accesses College Football Data to create a model of play calling for SEC teams. 
   - Uses ensemble methods to help identify the most important features to predict play calls by coaches depending on the time left in the game, down, distance, and other key football-specific metrics.
-#### 5. Football ELO Ratings
+#### 6. Football ELO Ratings
   - Leverage novel college football data API to create power ranking system using ELO ratings, the system made famous for ranking chess players.
   - Develops ELO ratings over time between 2000-Present by taking information from all games played by all teams.
-#### 6. Sarcasm in News Headlines
+#### 7. Sarcasm in News Headlines
   - Build ANN using TensorFlow to detect sarcasm in news headlines using Kaggle dataset.
-#### 7. Forecasting Store Sales
+#### 8. Forecasting Store Sales
   - Use Neural Prophet (Facebook) to forecast sales at stores in Ecuador using Kaggle dataset. Break down trend, seasonality, and incorporate key holidays and additional regression (nation-wide oil prices). Tune hyperparameters using parameter grid search.
   
