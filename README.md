@@ -30,4 +30,5 @@
   - Build ANN using TensorFlow to detect sarcasm in news headlines using Kaggle dataset.
 #### 9. Forecasting Store Sales
   - Use Neural Prophet (Facebook) to forecast sales at stores in Ecuador using Kaggle dataset. Break down trend, seasonality, and incorporate key holidays and additional regression (nation-wide oil prices). Tune hyperparameters using parameter grid search.
-  
+#### 10. Chat with a Database
+  - Using Langchain and a Pinecone vector store, I create a small database of documents including a chapter from an open source physics textbook and a syllabus for a real course. I create embeddings and use Retrieval Augmented Generation (RAG) to leverage both open source (Falcon 7B-Instruct) and non open source (OpenAI GPT 3.5) LLMs to query the database with excellent results!
