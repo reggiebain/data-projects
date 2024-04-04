@@ -12,7 +12,7 @@
 #### [3. Movie Review Sentence Classifier w/ BERT](https://github.com/reggiebain/data-projects/blob/main/Movie_Review_Classifier_Deep_Learning.ipynb)
   - Built an LSTM model using Keras and Tensorflow to classify the sentiment of critic reviews of movies using Rotten Tomatoes data. 
   - Additionally, worked on fine-tuning BERT to predict the same critic review sentiments. Leverage the HuggingFace Transformers library as well as Keras/Tensorflow functionality.
-#### [4. Sentiment Flair Analysis](https://github.com/reggiebain/data-projects/blob/main/sentiment-flair-analysis.ipynb)] + [Clustering Analysis](https://github.com/reggiebain/data-projects/blob/main/sentiment-clustering-analysis.ipynb)
+#### [4. Sentiment Flair Analysis](https://github.com/reggiebain/data-projects/blob/main/sentiment-flair-analysis.ipynb) + [Clustering Analysis](https://github.com/reggiebain/data-projects/blob/main/sentiment-clustering-analysis.ipynb)
   - Uses Flair, a state-of-the-art pre-trained model for NLP, to analyze the sentiment of unlabeled customer comments on pharmacudical products.
   - Leverages regex and other techniques to clean reviews, which come from a variety of sources including social media and surveys
   - Use clustering with Google Word2Vec package to create embeddings for reviews to analyze sentiment in the same customer reviews.
@@ -40,7 +40,7 @@
   - Implement GAN architecture using PyTorch. Discuss in the notebook in detail each layer of the generator/discriminator.
   - Results are mixed for small number of epochs. Requires extensive GPU/TPU time to get really good results (shown is small number of epochs on CPU for preliminary results). In future, may consider removing "ghost" type characters from set as many of the images tend to look like these ghost like shapes.
   - Plot loss for generator and discriminator using binary cross-entropy loss function (used for categorical data)
-#### [13. Physics Class Chatbots]
+#### 13. Physics Class Chatbots
   -  **[OpenAI API Syllabus Chatbot](https://github.com/reggiebain/data-projects/blob/main/Syllabus-GPT.ipynb)**
      - Use OpenAI API to embed a course syllabus and then pipe queries through Chat-GPT to answer student questions. Astonishingly good performance. Requires paid subscription.
   - **[General ChatBot with Canvas/Wolfram/OpenAI](https://github.com/reggiebain/data-projects/blob/main/Physics_ChatBot.ipynb)**
