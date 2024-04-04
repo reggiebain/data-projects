@@ -1,6 +1,6 @@
 # data-projects
 ### Guide to Reggie Bain's Data Projects Repo
-#### [1. NLI with HuggingFace+Tensorflow and Custom Classification Head] (https://github.com/reggiebain/data-projects/blob/main/xlm-roberta-nli-task.ipynb)
+#### [1. NLI with HuggingFace+Tensorflow and Custom Classification Head](https://github.com/reggiebain/data-projects/blob/main/xlm-roberta-nli-task.ipynb)
   - Achieves 92.7% test accuracy on Kaggle Contradictory, My Dear Watson dataset leveraging Kaggle TPU's.
   - Fine-tunes a XLM-RoBERTa-XNLI pre-trained model from HuggingFace, adding a custom classification head to the model and performing fine tuning.
   - Leverage Tensorflow, Keras, and Transformers APIs to analyze pairs of sentences and classify the pairs as having entailment, nuetral, or contradictory meanings.
