@@ -33,3 +33,17 @@
   - Using Langchain and a Pinecone vector store, I create a small database of documents including a chapter from an open source physics textbook and a syllabus for a real course. I create embeddings and use Retrieval Augmented Generation (RAG) to leverage both open source (Falcon 7B-Instruct) and non open source (OpenAI GPT 3.5) LLMs to query the database with excellent results!
 #### [11. College Enrollment EDA](https://github.com/reggiebain/data-projects/blob/main/bain-cb-analysis.ipynb)
   - Using various data manipulation and visualization techniques, I analyze enrollment data from colleges and universities around the world. In a data driven way, I show and discuss significant historial events and their coincidence with major changes in enrollments.
+#### [12. Deep Convolutional GAN (DCGAN) for Generating Novel Pokemon Images](https://github.com/reggiebain/data-projects/blob/main/dcgan-pytorch-pokemon.ipynb)
+  - Implement basic DCGAN architecture to generate new images of characters from Pokemon anime in PyTorch.
+  - Mine data from a variety of online sources to get thousands of images of characters.
+  - Use image augementation techniques to expand training set.
+  - Implement GAN architecture using PyTorch. Discuss in the notebook in detail each layer of the generator/discriminator.
+  - Results are mixed for small number of epochs. Requires extensive GPU/TPU time to get really good results (shown is small number of epochs on CPU for preliminary results). In future, may consider removing "ghost" type characters from set as many of the images tend to look like these ghost like shapes.
+  - Plot loss for generator and discriminator using binary cross-entropy loss function (used for categorical data)
+#### [13. Physics Class Chatbots]
+  -  **[OpenAI API Syllabus Chatbot](https://github.com/reggiebain/data-projects/blob/main/Syllabus-GPT.ipynb)**
+     - Use OpenAI API to embed a course syllabus and then pipe queries through Chat-GPT to answer student questions. Astonishingly good performance. Requires paid subscription.
+  - **[General ChatBot with Canvas/Wolfram/OpenAI](https://github.com/reggiebain/data-projects/blob/main/Physics_ChatBot.ipynb)**
+     - Use APIs from Canvas, WolframAlpha, and OpenAI to dynamically route queries to do basic calculations, get due dates, and assignment information from a Canvas course. Can also pipe more general queries to Chat-GPT.
+  - **[ChatBot App with ChainLit + LangChain](https://github.com/reggiebain/data-projects/blob/main/langchain-chainlit-pdfQA.py)** 
+     - Use ChainLit to create basic chat bot app that can query any document using RAG techniques implemented with LangChain. Tested with course syllabus and chapter of well known open source textbook. Tested various open source and non-open-source LLMs including Falcon and GPT. Excellent results with both.
