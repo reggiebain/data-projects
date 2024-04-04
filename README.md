@@ -1,6 +1,6 @@
 # data-projects
 ### Guide to Reggie Bain's Data Projects Repo
-#### 1. NLI with HuggingFace+Tensorflow and Custom Classification Head (xlm-roberta-nli-task.ipynb)
+#### 1. [NLI with HuggingFace+Tensorflow and Custom Classification Head] (xlm-roberta-nli-task.ipynb)
   - Achieves 92.7% test accuracy on Kaggle Contradictory, My Dear Watson dataset leveraging Kaggle TPU's.
   - Fine-tunes a XLM-RoBERTa-XNLI pre-trained model from HuggingFace, adding a custom classification head to the model and performing fine tuning.
   - Leverage Tensorflow, Keras, and Transformers APIs to analyze pairs of sentences and classify the pairs as having entailment, nuetral, or contradictory meanings.
@@ -29,7 +29,7 @@
   - Build ANN using TensorFlow to detect sarcasm in news headlines using Kaggle dataset.
 #### 9. Forecasting Store Sales
   - Use Neural Prophet (Facebook) to forecast sales at stores in Ecuador using Kaggle dataset. Break down trend, seasonality, and incorporate key holidays and additional regression (nation-wide oil prices). Tune hyperparameters using parameter grid search.
-#### 10. Chat with a Database
+#### 10. [Chat with a Database](https://github.com/reggiebain/data-projects/blob/main/chat-w-database.ipynb)
   - Using Langchain and a Pinecone vector store, I create a small database of documents including a chapter from an open source physics textbook and a syllabus for a real course. I create embeddings and use Retrieval Augmented Generation (RAG) to leverage both open source (Falcon 7B-Instruct) and non open source (OpenAI GPT 3.5) LLMs to query the database with excellent results!
-#### 11. College Enrollment EDA
+#### [11. College Enrollment EDA](https://github.com/reggiebain/data-projects/blob/main/bain-cb-analysis.ipynb)
   - Using various data manipulation and visualization techniques, I analyze enrollment data from colleges and universities around the world. In a data driven way, I show and discuss significant historial events and their coincidence with major changes in enrollments.
